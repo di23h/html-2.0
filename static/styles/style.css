@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header { display: flex;
+background-color: black;
+list-style-type:none ;
+justify-content: space-around;
+align-items: center;
+}
+
+
+
+
+
+
+
+
+ li a {
+
+color: white;
+text-decoration: none;
+
+}
+ 
+
+
+
+
+.okno{
+  background-image: url('../img/logo 2.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: auto;
+  height: 500px;
+  width: 100%;
+}
+
+.fit-logo{
+display: inline-block;
+margin: 150px;
+}
