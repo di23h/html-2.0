@@ -5,29 +5,19 @@
 
 
 
-header{
+header{ 
 background-color: black;
 list-style-type:none ;
 
 }
 
 
-
-ul{display: flex;
-  list-style-type:none ;
-  justify-content: flex-end;
-  
-}
-
-
- ul li a {
+li a {
 
 color: white;
 text-decoration: none;
 
 }
- 
-
 
 
 .okno{
@@ -40,6 +30,6 @@ text-decoration: none;
 }
 
 .fit-logo{
-display:inline-block;
+display:inline-flex;
 margin: 150px;
 }
