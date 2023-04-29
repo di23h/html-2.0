@@ -5,11 +5,36 @@
 
 
 
-header{ 
+header{ display: flex;
 background-color: black;
 list-style-type:none ;
+justify-content: space-between;
+
 
 }
+
+header ul {
+  flex-wrap: wrap-reverse;
+}
+.logo1{
+  padding-left: 5%;
+}
+
+ul{display: flex;
+  list-style-type:none ;
+align-items: center;
+
+}
+
+ul li{
+  list-style-type: none;
+  margin: 0 15px;
+
+}
+ul{
+  padding-right: 4%;
+}
+
 
 
 li a {
@@ -28,8 +53,8 @@ text-decoration: none;
   height: 500px;
   width: 100%;
 }
+.logo2{
+  display: flex;
 
-.fit-logo{
-display:inline-flex;
-margin: 150px;
 }
+
