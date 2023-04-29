@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -41,20 +45,25 @@ li a {
 
 color: white;
 text-decoration: none;
-
+font-family: 'roboto';
 }
 
 
-.okno{
+.okno{display: flex;
   background-image: url('../img/logo 2.png');
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-size: auto;
   height: 500px;
   width: 100%;
+
 }
 .logo2{
-  display: flex;
+width:auto;
+height: 60px;
 
 }
-
+h1{
+  color: rgb(255, 255, 255);
+  font-family: 'roboto';
+}
