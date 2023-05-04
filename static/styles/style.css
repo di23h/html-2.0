@@ -67,10 +67,13 @@ form{
 }
 
 .GetStarted{
-  color: orange;
+  padding: 13px 20px;
+border: none;
   font-family: 'roboto';
   margin-top: 5%;
   font-size: 20px;
+ background-color: orange;
+ color: white;
 }
 
 .for{display: flex;
@@ -101,8 +104,11 @@ margin-top: 5%;
 font-size: 19px;
 
 }
-.download{
-  color: orange;
+.download1{
+  padding: 13px 20px;
+  border: none;
+background-color: orange;
+color: white;
   margin-top: 5%;
   font-family: 'roboto';
   font-size: 20px;
@@ -134,4 +140,54 @@ align-items: center;
 }
 .icons img {
   margin: 0 20px;
+}
+.tabs{display: flex;
+background-image: url('../img/fon 1.png');
+background-repeat: no-repeat, repeat;
+background-size: 100%;
+  height: 600px;
+  width: 100%;
+  justify-content: space-around
+}
+
+
+
+
+
+
+
+
+
+.download2{
+  padding: 13px 20px;
+  border: none;
+background-color: orange;
+color: white;
+  margin-top: 9%;
+  font-family: 'roboto';
+  font-size: 20px;
+}
+
+
+.fj{
+  margin-top: 20%;
+  font-family: 'roboto';
+}
+.as{
+  margin-top: 10%;
+  font-family: 'roboto';
+  color: rgb(155, 155, 155);
+
+}
+
+.of{
+  margin-top: 10%;
+  font-family: 'roboto';
+   color: rgb(155, 155, 155);
+}
+
+.sity1{
+  display: flex;
+  align-items: center;
+
 }
