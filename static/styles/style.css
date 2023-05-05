@@ -21,6 +21,7 @@ header ul {
   flex-wrap: wrap-reverse;
 }
 .logo1{
+
   padding-left: 5%;
 }
 
@@ -35,8 +36,8 @@ ul li{
   margin: 0 15px;
 
 }
-ul{
-  padding-right: 4%;
+header  ul{
+  padding-right: 60px;
 }
 
 
@@ -54,17 +55,19 @@ font-family: 'roboto';
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-size: auto;
-  height: 500px;
+padding: 4% 0;
   width: 100%;
   justify-content: space-around;
-
 }
+
 
 
 form{
   color: rgb(255, 255, 255);
   font-family: 'roboto';
+
 }
+
 
 .GetStarted{
   padding: 13px 20px;
@@ -79,7 +82,7 @@ border: none;
 .for{display: flex;
 align-items: center;
 }
-
+ 
 .logo2 img{
   margin-top: 12%;
 
@@ -114,10 +117,11 @@ color: white;
   font-size: 20px;
 }
 
-.footer{display: flex;
+
+.contacts{display: flex;
 background-color: rgb(209, 209, 209);
-height: 130px;
-width: 100%;
+padding: 3% 0;
+height: auto;
 justify-content: space-around;
 }
 .p1{
@@ -127,25 +131,32 @@ margin-top: 5%;
 font-size: 25px;
 }
 .p2{
-  color: rgb(155, 155, 155);
+  color: rgb(167, 167, 167);
   margin-top: 5%;
   font-family: 'roboto';
   font-size: 20;
 }
 
-.icons{
+.icons {
 display: flex;
 align-items: center;
-
 }
+
+.icons ul{
+  flex-wrap: wrap;
+}
+
 .icons img {
   margin: 0 20px;
 }
+
+
+
+
 .tabs{display: flex;
-background-image: url('../img/fon 1.png');
-background-repeat: no-repeat, repeat;
-background-size: 100%;
-  height: 600px;
+background-color: rgba(131, 130, 130, 0.5);
+
+padding: 4% 0;
   width: 100%;
   justify-content: space-around
 }
@@ -190,4 +201,10 @@ color: white;
   display: flex;
   align-items: center;
 
+}
+@media screen and (max-width: 700px) {
+.sity1 img {
+height: auto;
+width: 100%;
+  }
 }
