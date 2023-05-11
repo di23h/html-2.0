@@ -72,11 +72,16 @@ form{
 .GetStarted{
   padding: 13px 20px;
 border: none;
+border: solid 1px;
   font-family: 'roboto';
   margin-top: 5%;
   font-size: 20px;
- background-color: orange;
+ background-color: transparent;
  color: white;
+}
+
+.GetStarted:hover{
+  background-color:orange;
 }
 
 .for{display: flex;
@@ -110,13 +115,17 @@ font-size: 19px;
 .download1{
   padding: 13px 20px;
   border: none;
-background-color: orange;
+background-color: transparent;
+border: solid 1px;
 color: white;
   margin-top: 5%;
   font-family: 'roboto';
   font-size: 20px;
 }
 
+.download1:hover{
+background-color: orange;
+}
 
 .contacts{display: flex;
 background-color: rgb(209, 209, 209);
@@ -158,15 +167,9 @@ background-color: rgba(131, 130, 130, 0.5);
 
 padding: 4% 0;
   width: 100%;
-  justify-content: space-around
+  justify-content: space-around;
+
 }
-
-
-
-
-
-
-
 
 
 .download2{
@@ -208,3 +211,40 @@ height: auto;
 width: 100%;
   }
 }
+
+.tab{
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+padding: 20px;
+}
+.TAB1 {
+background-color: black;
+color: white;
+padding: 30px ;
+}
+
+.TAB2 {
+background-color:black;
+color: white;
+  padding: 30px;
+  }
+
+  .TAB3 {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    }
+
+    .TAB1:hover{
+      background-color:orange;
+    }
+
+    .TAB2:hover{
+      background-color:orange;
+    }
+
+    .TAB3:hover{
+      background-color:orange;
+    }
+
