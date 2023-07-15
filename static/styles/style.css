@@ -51,10 +51,7 @@ font-family: 'roboto';
 
 
 .okno{display: flex;
-<<<<<<< HEAD
-=======
   flex-wrap: wrap;
->>>>>>> c806276 (jdf)
   background-image: url('../img/logo 2.png');
   background-repeat: no-repeat, repeat;
   background-position: center;
@@ -89,10 +86,7 @@ border: solid 1px;
 }
 
 .for{display: flex;
-<<<<<<< HEAD
-=======
   flex-wrap: wrap;
->>>>>>> c806276 (jdf)
 align-items: center;
 }
  
@@ -136,11 +130,8 @@ background-color: orange;
 }
 
 .contacts{display: flex;
-<<<<<<< HEAD
 background-color: rgb(209, 209, 209);
-=======
 background-color: rgb(255, 255, 255);
->>>>>>> c806276 (jdf)
 padding: 3% 0;
 height: auto;
 justify-content: space-around;
@@ -175,13 +166,9 @@ align-items: center;
 
 
 .tabs{display: flex;
-<<<<<<< HEAD
 background-color: rgba(131, 130, 130, 0.5);
-
-=======
   flex-wrap: wrap;
 background-color: rgb(221, 221, 221);
->>>>>>> c806276 (jdf)
 padding: 4% 0;
   width: 100%;
   justify-content: space-around;
@@ -254,11 +241,9 @@ color: white;
     }
 
     .TAB1:hover{
-<<<<<<< HEAD
       background-color:orange;
-=======
+
       background-color:rgb(245, 244, 243);
->>>>>>> c806276 (jdf)
     }
 
     .TAB2:hover{
@@ -269,8 +254,6 @@ color: white;
       background-color:orange;
     }
 
-<<<<<<< HEAD
-=======
 
     .sublistsection{
       display: flex;
