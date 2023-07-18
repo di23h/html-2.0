@@ -652,3 +652,31 @@ padding: 12px;
   border-bottom: 2px solid rgb(204, 204, 204);
   
  }
+
+ .WHAT-OUR-CUSTOMERS-ARE-SAYINNG{
+  padding: 5% 0;
+  width: 100%;
+background-color: rgb(255, 255, 255);
+}
+ .WE {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WE h1 {
+  font-family:  'roboto';  
+}
+
+.WE  hr {
+  margin-top: 5%;
+border-color: orange;
+
+width: 10%;
+}
+
+.WE p {
+  margin-top: 5%;
+  color: rgb(155, 155, 155);
+  font-family:  'roboto'; 
+}
