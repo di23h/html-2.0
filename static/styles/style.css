@@ -680,3 +680,10 @@ width: 10%;
   color: rgb(155, 155, 155);
   font-family:  'roboto'; 
 }
+
+
+ .EMPLOYEES {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
