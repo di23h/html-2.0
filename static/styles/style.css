@@ -698,6 +698,9 @@ width: 10%;
   height: 150px; 
 
 }
+.JEREMY {
+  margin-top: 10%;
+}
 
 .JEREMY-H p{
   color: rgb(108, 108, 108);
@@ -717,6 +720,10 @@ font-family: 'roboto';
   color: rgb(153, 153, 153);
 }
 
+.JOHN{
+margin-top: 10%;
+}
+ 
 .JOHN-S {
   display: flex;
   border-radius: 25px;
@@ -745,7 +752,10 @@ font-family: 'roboto';
     .J-S1 {
 color:  rgb(153, 153, 153);
     }
-
+ 
+    .SUSAN{
+      margin-top: 10%;
+    }
     .SUSAN-W{
       display: flex;
       border-radius: 25px;
