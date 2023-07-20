@@ -686,4 +686,92 @@ width: 10%;
   display: flex;
   justify-content: space-around;
   margin-top: 10%;
+  flex-wrap: wrap;
 }
+
+.JEREMY-H  {
+  display: flex;
+  border-radius: 25px;
+  background: #c2c2c2;
+  padding: 20px; 
+  width: 250px;
+  height: 150px; 
+
+}
+
+.JEREMY-H p{
+  color: rgb(108, 108, 108);
+}
+
+.J-1 {
+margin-top: 10%;
+  display: flex ;
+}
+
+.manager {
+font-family: 'roboto';
+  display: flex;
+  flex-direction: column;
+}
+.J-2 {
+  color: rgb(153, 153, 153);
+}
+
+.JOHN-S {
+  display: flex;
+  border-radius: 25px;
+  background: #c2c2c2;
+  padding: 20px; 
+  width: 250px;
+  height: 150px; 
+
+}
+
+.JOHN-S p{
+  color: rgb(108, 108, 108);
+}
+
+.J-S {
+  margin-top: 10%;
+    display: flex ;
+  }
+  
+  .freelancer{
+    font-family: 'roboto';
+      display: flex;
+      flex-direction: column;
+    }
+
+    .J-S1 {
+color:  rgb(153, 153, 153);
+    }
+
+    .SUSAN-W{
+      display: flex;
+      border-radius: 25px;
+      background: #c2c2c2;
+      padding: 20px; 
+      width: 250px;
+      height: 150px; 
+    
+    }
+
+    .SUSAN-W p{
+      color: rgb(108, 108, 108);
+    }
+
+    .S-W {
+      
+        margin-top: 10%;
+          display: flex ;
+        
+    }
+    .photographer  {
+      font-family: 'roboto';
+        display: flex;
+        flex-direction: column;
+      }
+
+      .S-W1 {
+        color:  rgb(153, 153, 153);
+      }
